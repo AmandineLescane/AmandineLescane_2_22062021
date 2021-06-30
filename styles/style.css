@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "Raleway-VariableFont_wght";
+    src: url("../assets/Raleway/Raleway-VariableFont_wght.ttf");
+    font-weight: 100 900 ;
+}
+
+*{
+    font-family: "Raleway-VariableFont_wght";
+    font-size:large;
+}
+
+.menu {
+    display: flex;
+    padding: 0;
+    background-color: white;
+}
+.menu li {
+    list-style-type: none;
+}
+.menu a {
+    display: block;
+    border: 35px;
+    padding: 35px;
+    text-decoration: none;
+    color: darkslategrey;
+
+}
+header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.logo {
+  border: 35px;
+  padding: 35px;
+}
+.menu a:hover {
+    background-color: white;
+    color: blue;
+    border-top: solid 2px blue;
+}
+.menu a.inscription {
+    color:blue;
+    font-weight: 700;
+}
