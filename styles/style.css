@@ -8,11 +8,13 @@
     font-family: "Raleway-VariableFont_wght";
     font-size:large;
 }
-
+body{
+    padding: 25px;
+}
 .menu {
     display: flex;
-    padding: 0;
-    background-color: white;
+    padding: 0%;
+    background-color:white;
 }
 .menu li {
     list-style-type: none;
@@ -20,26 +22,198 @@
 .menu a {
     display: block;
     border: 35px;
-    padding: 35px;
+    padding:25px;
     text-decoration: none;
     color: darkslategrey;
-
 }
 header {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
+    background-color: white;
+    width: 100%;
 }
 .logo {
-  border: 35px;
-  padding: 35px;
+    border: 35px;
+    padding: 15px;
 }
 .menu a:hover {
     background-color: white;
     color: blue;
     border-top: solid 2px blue;
 }
-.menu a.inscription {
+.menu a.signin {
     color:blue;
     font-weight: 700;
+}
+i{
+    border-radius: 25% 0% 0% 25%;
+    border: solid 1px rgb(231, 234, 236);
+    padding: 15px;
+    background-color: rgb(231, 234, 236) ;
+}
+input {
+    border: solid 1px rgb(231, 234, 236);
+    padding: 13px;
+}
+button{
+    border-radius: 0% 15% 15% 0%;
+    border: solid 1px blue;
+    padding: 13px;
+    background-color: blue;
+    font-weight: bold;
+    color: white;
+}
+h1{
+    font-weight: 800;
+    font-size: larger;
+}
+p {
+    font-weight:500;
+}
+.icon {
+    display: flex;
+}
+.p2 {
+    font-weight: 700;
+    padding: 15px;
+}
+.icon li{
+    list-style-type: none;
+    border: 2px solid lightgrey;
+    margin: 10px;
+    border-radius: 50px;
+    font-weight: 700;
+    padding-right: 20px;
+    white-space: nowrap;
+}
+.filter {
+    display: flex;
+    align-items: center;
+}
+.icon i {
+    background-color: rgb(207, 238, 247);
+    color: blue;
+    border-radius: 55%;
+    padding: 15px;
+    margin-right: 10px;
+}
+.fa-info {
+    background-color: white;
+    color: blue;
+    font-size: small;
+    font-weight: 500;
+    border: 2px solid lightgray;
+    border-radius: 80%;
+    margin: 10px;
+}
+.info {
+    font-size: medium;
+}
+nav {
+    margin: 10px;
+}
+.place{
+    margin: 15px;
+    padding: 15px;
+}
+.fa-star {
+    background-color: white;
+    color: blue;
+    border: none;
+    margin: 2px;
+    padding: 0px;
+}
+.greystar {
+    color: grey;
+}
+.accomodation {
+    border: solid 2px white;
+    width: 250px;
+    border-radius: 25px;
+    background-color: white;
+    margin: 5px;
+    padding: 3px;
+
+}
+.hotel {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 25px 25px 0px 0px;
+}
+section {
+    background-color: rgb(231, 234, 236);
+    border: solid 2px rgb(231, 234, 236);
+    border-radius: 15px;
+    margin: 30px;
+}
+.firstblock{
+    flex-basis: 70%;
+}
+.secondblock{
+    flex-basis: 30%;
+}
+.text {
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.conteneur {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+@media screen and (max-width:375px){
+    header {
+        background: green;
+    }
+}
+main {
+    display: flex;
+    justify-content: space-between;
+}
+#activities {
+    background: white;
+    border: white;
+    display: flexbox;
+    width: 100%;
+}
+.activity {
+    border: none;
+    border-radius: 25px;
+    width: 325px;
+    box-shadow: 0 0 2em lightgrey;
+}
+.loisir {
+    border-radius: 25px 25px 0px 0px;
+    max-width: 100%;
+}
+.help ul{
+    list-style-type:none;
+    display: flex;
+    padding: 0%;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-content: space-between;
+}
+footer{
+    background-color: rgb(231, 234, 236);
+    display: flex;
+    justify-content: space-evenly;
+    flex-basis: 100%;
+    padding: 0%;
+    margin: 0%;
+}
+.help h2{
+    display: flex;
+    padding-top: 10px;
+}
+.help{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.help li{
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 10px;
 }
