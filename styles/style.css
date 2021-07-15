@@ -121,46 +121,105 @@ nav {
     background-color: white;
     color: blue;
     border: none;
-    margin: 2px;
-    padding: 0px;
+    padding: 2px;
+    margin-top: 3px;
+    margin-bottom: 0px;
 }
 .greystar {
     color: grey;
 }
-.accomodation {
-    border: solid 2px white;
+.firstblock .accomodation {
+    border: solid 1px white;
     width: 250px;
+    height: 200px;
     border-radius: 25px;
     background-color: white;
     margin: 5px;
-    padding: 3px;
-
+    padding: 5px;
 }
-.hotel {
-    max-width: 100%;
-    max-height: 100%;
+.firstblock .text {
+    width: 100%;
+    height: 40%;
+}
+.firstblock .hotel {
+    width: 100%;
+    height: 60%;
     border-radius: 25px 25px 0px 0px;
+    object-fit: cover;
+}
+.firstblock h3{
+    padding: 0px;
+    margin: 2px 0px 2px 2px;
+}
+.firstblock p {
+    margin: 2px 0px 2px 2px;
+    padding: 0px;
 }
 section {
     background-color: rgb(231, 234, 236);
     border: solid 2px rgb(231, 234, 236);
     border-radius: 15px;
-    margin: 30px;
+    margin: 20px;
+}
+.column1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.column2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.column3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .firstblock{
     flex-basis: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 .secondblock{
     flex-basis: 30%;
-}
-.text {
-    padding-left: 10px;
-    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
 }
 .conteneur {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+}
+.secondblock .accomodation{
+    border: solid 1px white;
+    width: 350px;
+    height: 150px;
+    border-radius: 25px;
+    background-color: white;
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+.secondblock .hotel {
+    width: 40%;
+    height: 100%;
+    border-radius: 25px 0px 0px 25px;
+    object-fit: cover;
+}
+.secondblock h3{
+    padding: 0px;
+    margin: 10px 20px 10px 20px;
+}
+.secondblock p{
+    padding: 0px;
+    margin: 10px 20px 10px 20px;
+}
+.fastar{
+    margin-left: 20px;
 }
 main {
     display: flex;
@@ -225,6 +284,9 @@ article{
     box-shadow: 0 0 2em lightgrey;
     width: 300px;
     height: 200px;
+}
+.activities h3{
+    margin: 15px
 }
 .image1 {
     border-radius: 25px 25px 0px 0px;
