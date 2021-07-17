@@ -87,6 +87,9 @@ p {
     padding-right: 20px;
     white-space: nowrap;
 }
+.icon li:hover{
+    background-color:rgb(160, 230, 250) ;
+}
 .filter {
     display: flex;
     align-items: center;
@@ -113,10 +116,6 @@ p {
 nav {
     margin: 10px;
 }
-.place{
-    margin: 15px;
-    padding: 15px;
-}
 .fa-star {
     background-color: white;
     color: blue;
@@ -136,6 +135,7 @@ nav {
     background-color: white;
     margin: 5px;
     padding: 5px;
+    box-shadow: 0 0 2em darkgrey;
 }
 .firstblock .text {
     width: 100%;
@@ -146,6 +146,14 @@ nav {
     height: 60%;
     border-radius: 25px 25px 0px 0px;
     object-fit: cover;
+}
+.firstblock h1{
+    margin: 15px;
+    padding: 15px;
+}
+.firstblock h2{
+    margin: 15px;
+    padding: 15px;
 }
 .firstblock h3{
     padding: 0px;
@@ -203,12 +211,17 @@ section {
     padding: 5px;
     display: flex;
     align-items: center;
+    box-shadow: 0 0 2em darkgrey;
 }
 .secondblock .hotel {
     width: 40%;
     height: 100%;
     border-radius: 25px 0px 0px 25px;
     object-fit: cover;
+}
+.secondblock h1{
+    margin: 15px;
+    padding: 15px;
 }
 .secondblock h3{
     padding: 0px;
@@ -368,4 +381,11 @@ footer{
 }
 body{
     margin: 0%;
+}
+section a {
+    text-decoration: none;
+    color: black;
+}
+section a:hover{
+    zoom: 102%;
 }
