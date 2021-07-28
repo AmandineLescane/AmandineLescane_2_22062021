@@ -256,7 +256,7 @@ main {
 .activities h1 {
     margin-bottom: 25px;
 }
-article{
+.mosaic{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -392,7 +392,7 @@ section a {
     text-decoration: none;
     color: black;
 }
-@media screen and (max-width: 375px){
+@media screen and (max-width: 1260px){
     header{
         display: flex;
         flex-wrap: wrap;
@@ -400,7 +400,7 @@ section a {
     .menu{
         flex-basis: 100%;
         display: flex;
-        justify-content: space-around;
+        justify-content:space-around;
         align-items: center;
     }
     .menu .signin{
@@ -419,19 +419,28 @@ section a {
     .firstblock{
         width: auto;
         display: flex;
-        background-color: white;
         border: none;
-        margin: 20px;
+        background-color: white;
+        margin-right: 0%;
+        
+    }
+    .conteneur{
+        display: flex;
+        justify-content: initial;
+        flex-direction: column;
+        padding: 0px 20px 20px 20px;
     }
     .secondblock{
         width: auto;
         display: flex;
         margin: 0%;
         border-radius: 0%;
+        padding-right: 20px;
+        padding-left: 20px;
     }
     .firstblock .accomodation{
         width: auto;
-        margin-bottom: 20px;
+        margin: 0px 0px 20px 0px;
     }
     .secondblock .accomodation{
         width: auto;
@@ -441,9 +450,13 @@ section a {
         padding: 0%;
     }
     .activities{
-        width: auto;
         display: flex;
         margin: 20px;
+    }
+    .mosaic{
+        display: flex;
+        flex-direction: column;
+        align-content: initial;
     }
     .activity1{
         width: auto;
@@ -473,7 +486,7 @@ section a {
         height: 70%;
     }
     .activity4{
-        width: 100%;
+        width: auto;
         height: 200px;
         margin-bottom: 20px;
     }
@@ -482,7 +495,7 @@ section a {
         height: 70%;
     }
     .activity5{
-        width: 100%;
+        width: auto;
         height: 200px;
         margin-bottom: 20px;
     }
@@ -491,7 +504,7 @@ section a {
         height: 70%;
     }
     .activity6{
-        width: 100%;
+        width: auto;
         height: 200px;
         margin-bottom: 20px;
     }
