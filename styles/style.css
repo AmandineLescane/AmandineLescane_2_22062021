@@ -42,6 +42,7 @@ header {
     background-color: white;
     color: blue;
     border-top: solid 2px blue;
+    padding-top: 23px;
 }
 .menu a.signin {
     color:blue;
@@ -240,7 +241,7 @@ section {
 .fastar{
     margin-left: 20px;
 }
-main {
+.first {
     display: flex;
     justify-content: space-between;
 }
@@ -388,7 +389,7 @@ footer{
 body{
     margin: 0%;
 }
-section a {
+article a {
     text-decoration: none;
     color: black;
 }
@@ -412,7 +413,7 @@ section a {
         border-bottom: solid 2px blue;
         border-top: none;
     }
-    main{
+    .first{
         display: flex;
         flex-direction: column-reverse;
     }
@@ -543,7 +544,7 @@ section a {
     .menu .signin{
         position: relative;
     }
-    main{
+    .first{
         display: flex;
         flex-wrap: wrap;
     }
