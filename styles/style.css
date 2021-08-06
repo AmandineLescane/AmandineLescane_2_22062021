@@ -557,21 +557,19 @@ article a {
     .firstblock .accomodation{
         margin: 30px;
     }
+    article{
+        justify-content: center;
+    }
     .conteneur{
         display: flex;
         justify-content: center;
     }
-
+    .secondblock{
+        flex-basis: 100%;
+    }
     .column3{
         display: flex;
         flex-direction: row;
-    }
-    .secondblock{
-        display: flex;
-        margin: 0%;
-        flex-basis: 100%;
-        padding-left: 20px;
-        padding-right: 20px;
     }
     .secondblock .accomodation{
         display: flex;
@@ -611,5 +609,11 @@ article a {
         flex-direction: row;
         align-content: space-between;
         width: 100%;
+    }
+}
+@media only screen and (min-width: 1800px) {
+    body{
+        margin: auto;
+        padding: 200px;
     }
 }
