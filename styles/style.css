@@ -14,6 +14,7 @@
 .menu {
     display: flex;
     padding: 0%;
+    margin: 0%;
     background-color:white;
 }
 .menu li {
@@ -48,6 +49,9 @@ header {
     color:blue;
     font-weight: 700;
 }
+.menu a.signin:hover {
+    border-top: none;
+}
 i{
     border-radius: 25% 0% 0% 25%;
     border: solid 1px rgb(231, 234, 236);
@@ -66,6 +70,14 @@ button{
     font-weight: bold;
     color: white;
 }
+.fa-search{
+    border: solid 1px blue;
+    padding: 13px;
+    background-color: blue;
+    font-weight: bold;
+    color: white;
+    border-radius: 0% 15% 15% 0%;
+}
 h1{
     font-weight: 800;
     font-size: larger;
@@ -76,6 +88,8 @@ p {
 .icon {
     display: flex;
     flex-wrap: wrap;
+    margin: 0%;
+    padding: 0%;
 }
 .p2 {
     font-weight: 700;
@@ -98,6 +112,7 @@ p {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    padding-top: 10px;
 }
 .icon i {
     background-color: #DEEBFF;
@@ -388,6 +403,8 @@ footer{
 }
 body{
     margin: 0%;
+    margin: auto;
+    max-width: 1440px;
 }
 article a {
     text-decoration: none;
@@ -413,6 +430,16 @@ article a {
         border-bottom: solid 2px blue;
         border-top: none;
     }
+    button{
+        display: none;
+    }
+    .icon li{
+        font-size:medium;
+        padding-right: 10px;
+    }
+    .icon i{
+        margin-right: 5px;
+    }
     .first{
         display: flex;
         flex-direction: column-reverse;
@@ -423,7 +450,6 @@ article a {
         border: none;
         background-color: white;
         margin-right: 0%;
-        
     }
     .conteneur{
         display: flex;
@@ -526,9 +552,6 @@ article a {
         flex-wrap: nowrap;
         justify-content: flex-start;
     }
-    input{
-        width: 160px;
-    }
 }
 @media only screen and (min-width: 801px) and (max-width: 1300px){
     header{
@@ -611,9 +634,8 @@ article a {
         width: 100%;
     }
 }
-@media only screen and (min-width: 1800px) {
-    body{
-        margin: auto;
-        padding: 200px;
+@media only screen and (min-width: 800px) {
+    .fa-search{
+        display: none !important;
     }
 }
