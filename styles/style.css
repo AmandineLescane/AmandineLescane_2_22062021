@@ -41,7 +41,6 @@ header {
 }
 .navigationmenu{
     display: flex;
-    flex-basis: 100%;
     justify-content: space-around;
 }
 .menu a:hover {
@@ -434,6 +433,9 @@ section a {
     .menu a:hover{
         border-bottom: solid 2px blue;
         border-top: none;
+    }
+    .navigationmenu{
+        flex-basis: 100%;
     }
     button{
         display: none;
